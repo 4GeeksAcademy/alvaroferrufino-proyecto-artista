@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="Disco de vinilo negro con centro naranja">
+  <defs>
+    <radialGradient id="bgA" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#2c2522" />
+      <stop offset="100%" stop-color="#13100e" />
+    </radialGradient>
+    <radialGradient id="discA" cx="38%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#1e1e1e" />
+      <stop offset="100%" stop-color="#070707" />
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="900" fill="url(#bgA)" />
+  <circle cx="450" cy="450" r="360" fill="url(#discA)" />
+
+  <circle cx="450" cy="450" r="310" fill="none" stroke="#2f2f2f" stroke-width="2" />
+  <circle cx="450" cy="450" r="270" fill="none" stroke="#343434" stroke-width="2" />
+  <circle cx="450" cy="450" r="230" fill="none" stroke="#383838" stroke-width="2" />
+  <circle cx="450" cy="450" r="190" fill="none" stroke="#3a3a3a" stroke-width="2" />
+  <circle cx="450" cy="450" r="150" fill="none" stroke="#323232" stroke-width="2" />
+
+  <circle cx="450" cy="450" r="92" fill="#c95d2a" />
+  <circle cx="450" cy="450" r="42" fill="#f0b35d" />
+  <circle cx="450" cy="450" r="10" fill="#f8e8c9" />
+
+
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Ilustracion vintage de discos de vinilo y tornamesa">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b1f1a" />
+      <stop offset="1" stop-color="#120f0d" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0.3" cy="0.25" r="0.75">
+      <stop offset="0" stop-color="#cf6a33" stop-opacity="0.38" />
+      <stop offset="1" stop-color="#cf6a33" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="vinyl" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#1b1b1b" />
+      <stop offset="1" stop-color="#070707" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)" />
+  <rect width="1600" height="1000" fill="url(#glow)" />
+
+  <g opacity="0.16">
+    <circle cx="250" cy="170" r="130" fill="#e7b774" />
+    <circle cx="1440" cy="840" r="190" fill="#cc5f2c" />
+  </g>
+
+  <g>
+    <rect x="120" y="130" width="1360" height="760" rx="24" fill="#2f2622" stroke="#4f3c32" stroke-width="8" />
+    <rect x="168" y="176" width="1264" height="668" rx="18" fill="#251d1a" stroke="#6a5143" stroke-opacity="0.45" stroke-width="3" />
+  </g>
+
+  <g transform="translate(810 500)">
+    <circle r="300" fill="url(#vinyl)" stroke="#2e2e2e" stroke-width="4" />
+    <circle r="246" fill="none" stroke="#3a3a3a" stroke-width="2" opacity="0.7" />
+    <circle r="212" fill="none" stroke="#343434" stroke-width="2" opacity="0.72" />
+    <circle r="178" fill="none" stroke="#303030" stroke-width="2" opacity="0.74" />
+    <circle r="144" fill="none" stroke="#2a2a2a" stroke-width="2" opacity="0.76" />
+    <circle r="110" fill="none" stroke="#262626" stroke-width="2" opacity="0.78" />
+    <circle r="76" fill="#c95d2a" />
+    <circle r="34" fill="#f0b35d" />
+    <circle r="10" fill="#f8e3bd" />
+  </g>
+
+  <g transform="translate(1210 300)">
+    <rect x="0" y="0" width="240" height="24" rx="12" fill="#8d7664" />
+    <rect x="16" y="12" width="24" height="250" rx="12" fill="#a28b78" />
+    <circle cx="12" cy="12" r="18" fill="#b8a08d" />
+    <rect x="-214" y="232" width="220" height="16" rx="8" fill="#9e8673" transform="rotate(-18)" />
+    <circle cx="-206" cy="236" r="10" fill="#dfccb2" />
+  </g>
+
+  <g font-family="'Arial', sans-serif" text-anchor="start">
+    <text x="180" y="845" fill="#f0e2c4" font-size="70" font-weight="700" letter-spacing="4">ROCK ALTERNATIVO</text>
+    <text x="182" y="895" fill="#d2bd99" font-size="32" letter-spacing="2">Sonido analogico, alma de carretera</text>
+  </g>
+</svg>

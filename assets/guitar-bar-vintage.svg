@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Escena vintage de joven tocando guitarra en un bar">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a2a23" />
+      <stop offset="1" stop-color="#1a1411" />
+    </linearGradient>
+    <radialGradient id="light" cx="52%" cy="18%" r="45%">
+      <stop offset="0" stop-color="#f0c07a" stop-opacity="0.6" />
+      <stop offset="1" stop-color="#f0c07a" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6d4a34" />
+      <stop offset="1" stop-color="#4a3124" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)" />
+  <rect width="1200" height="800" fill="url(#light)" />
+
+  <rect x="80" y="520" width="1040" height="200" rx="16" fill="url(#wood)" opacity="0.9" />
+
+  <g opacity="0.32" fill="#d8b58b">
+    <circle cx="240" cy="210" r="58" />
+    <circle cx="970" cy="170" r="52" />
+    <circle cx="780" cy="260" r="36" />
+  </g>
+
+  <g transform="translate(530 180)">
+    <rect x="-42" y="120" width="84" height="210" rx="20" fill="#231b17" />
+    <ellipse cx="0" cy="78" rx="62" ry="72" fill="#2c211c" />
+    <rect x="-84" y="150" width="168" height="170" rx="40" fill="#2f231d" />
+    <rect x="-152" y="180" width="70" height="34" rx="14" fill="#2f231d" transform="rotate(-22)" />
+    <rect x="82" y="190" width="72" height="34" rx="14" fill="#2f231d" transform="rotate(20)" />
+    <rect x="-44" y="332" width="38" height="160" rx="15" fill="#211915" transform="rotate(10)" />
+    <rect x="12" y="332" width="38" height="160" rx="15" fill="#211915" transform="rotate(-10)" />
+
+    <g transform="translate(120 210) rotate(-18)">
+      <ellipse cx="80" cy="60" rx="92" ry="62" fill="#9f5b2f" />
+      <ellipse cx="80" cy="60" rx="48" ry="34" fill="#6f3c1f" />
+      <rect x="72" y="-100" width="16" height="160" fill="#7a4b2b" />
+      <rect x="68" y="-130" width="24" height="34" rx="6" fill="#c19d70" />
+      <line x1="76" y1="-96" x2="76" y2="112" stroke="#d8c39e" stroke-width="1.5" />
+      <line x1="80" y1="-96" x2="80" y2="112" stroke="#d8c39e" stroke-width="1.5" />
+      <line x1="84" y1="-96" x2="84" y2="112" stroke="#d8c39e" stroke-width="1.5" />
+    </g>
+  </g>
+
+  <rect x="140" y="90" width="170" height="220" rx="8" fill="#4b3529" stroke="#8a654a" stroke-width="8" />
+  <rect x="890" y="100" width="180" height="220" rx="8" fill="#4b3529" stroke="#8a654a" stroke-width="8" />
+  <line x1="140" y1="640" x2="1060" y2="640" stroke="#2b1e17" stroke-width="4" opacity="0.6" />
+</svg>

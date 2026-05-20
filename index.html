@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mateo Rivas | Rock Alternativo</title>
+    <meta
+      name="description"
+      content="Sitio oficial de Mateo Rivas, cantante de rock alternativo. Conoce su historia, trayectoria internacional y próximas presentaciones por Europa."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#bienvenida">Saltar al contenido principal</a>
+
+    <header class="site-header" aria-label="Encabezado principal del sitio">
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a class="brand" href="#bienvenida" aria-label="Ir al inicio">Mateo Rivas</a>
+        <ul class="nav-list">
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#trayectoria">Trayectoria</a></li>
+          <li><a href="#proximas-presentaciones">Próximas presentaciones</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="contenido-principal" aria-label="Contenido principal">
+      <section id="bienvenida" class="panel hero" aria-labelledby="titulo-bienvenida">
+        <div class="panel-content">
+          <p class="kicker">Rock Alternativo • Sonido Vintage</p>
+          <h1 id="titulo-bienvenida">Mateo Rivas</h1>
+          <p class="lead">
+            Voces rasgadas, guitarras intensas y alma de carretera. Bienvenido a la
+            primera versión del sitio oficial de un joven artista que convierte cada
+            escenario en una historia inolvidable.
+          </p>
+          <a class="cta" href="#proximas-presentaciones" aria-label="Ver próximas presentaciones">
+            Ver Tour Europa
+          </a>
+        </div>
+        <figure class="vinyl-figure" aria-label="Reproductor de muestra rock" style="position:relative;display:inline-block;width:220px;height:220px;">
+          <button
+            type="button"
+            class="vinyl-trigger"
+            id="vinyl-trigger"
+            aria-label="Cambiar canción de la muestra rock alternativo"
+            style="position:relative;z-index:1;width:220px;height:220px;padding:0;border:0;background:transparent;"
+          >
+            <img
+              id="vinyl-image"
+              class="vinyl-disc"
+              src="assets/vinyl-disc-a.svg"
+              alt="Disco de vinilo vintage"
+              loading="lazy"
+              style="width:220px;height:220px;display:block;"
+            />
+          </button>
+          <img src="assets/needle.svg" alt="Aguja de tocadiscos" style="position:absolute;top:-30px;left:110px;width:120px;height:150px;z-index:2;pointer-events:none;" aria-hidden="true" />
+          <figcaption aria-label="Información del reproductor">
+            <p id="vinyl-status" aria-live="polite">
+              Haz click en el vinilo para comenzar. Cada click cambia canción y disco.
+            </p>
+            <button
+              type="button"
+              class="mute-btn"
+              id="mute-btn"
+              aria-label="Apagar sonido"
+              aria-pressed="false"
+            >
+              Apagar sonido
+            </button>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section id="sobre-mi" class="panel" aria-labelledby="titulo-sobre-mi">
+        <div class="panel-content">
+          <h2 id="titulo-sobre-mi">Sobre mí</h2>
+          <div class="about-grid">
+            <div>
+              <p>
+                Nací entre calles de barrio y parlantes viejos que sonaban más fuerte de
+                lo que debían. A los 14 años escribí mi primera canción en una libreta
+                gastada, y desde entonces no dejé de cantar.
+              </p>
+              <p>
+                Mi historia empieza en pequeños bares donde tocaba frente a diez personas,
+                pero con la misma entrega que en un estadio. Cada caída, cada viaje en bus
+                y cada madrugada de ensayo fue moldeando una voz honesta: cruda, melódica
+                y profundamente rockera.
+              </p>
+              <p>
+                Hoy quiero que esta música llegue más lejos. Esta web es el primer paso
+                para compartir mi talento con quienes buscan canciones que se sientan
+                reales.
+              </p>
+            </div>
+            <figure class="about-photo">
+              <img
+                src="https://images.pexels.com/photos/8970972/pexels-photo-8970972.jpeg?auto=compress&w=600&q=80"
+                alt="Joven con guitarra tocando en un bar, fotografía en blanco y negro, ambiente vintage. Foto de cottonbro studio en Pexels."
+                loading="lazy"
+              />
+              <figcaption>Joven tocando una guitarra en búsqueda de su sueño. Foto: cottonbro studio (Pexels).</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="trayectoria" class="panel" aria-labelledby="titulo-trayectoria">
+        <div class="panel-content">
+          <h2 id="titulo-trayectoria">Trayectoria</h2>
+          <p>
+            Conciertos que marcaron mi camino y me conectaron con públicos de distintas
+            culturas.
+          </p>
+          <ul class="timeline" aria-label="Listado de conciertos y países">
+            <li>
+              <strong>2022 · Argentina</strong>
+              <span>Gira en Buenos Aires, Córdoba y Rosario.</span>
+            </li>
+            <li>
+              <strong>2023 · México</strong>
+              <span>Presentaciones en Ciudad de México, Guadalajara y Monterrey.</span>
+            </li>
+            <li>
+              <strong>2024 · Chile y Colombia</strong>
+              <span>Festivales en Santiago, Valparaíso, Bogotá y Medellín.</span>
+            </li>
+            <li>
+              <strong>2025 · España</strong>
+              <span>Primer sold out en Madrid y show especial en Barcelona.</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section
+        id="proximas-presentaciones"
+        class="panel"
+        aria-labelledby="titulo-proximas-presentaciones"
+      >
+        <div class="panel-content">
+          <h2 id="titulo-proximas-presentaciones">Próximas presentaciones</h2>
+          <p>
+            Tour Europa 2026: una ruta de escenarios históricos, clubs underground y
+            festivales para llevar el nuevo repertorio al máximo nivel.
+          </p>
+          <ol class="tour-list" aria-label="Fechas del tour por Europa">
+            <li><strong>Londres, Reino Unido</strong> · 15 de junio · Electric Ballroom</li>
+            <li><strong>París, Francia</strong> · 21 de junio · Le Trianon</li>
+            <li><strong>Berlín, Alemania</strong> · 27 de junio · Columbia Theater</li>
+            <li><strong>Ámsterdam, Países Bajos</strong> · 2 de julio · Melkweg</li>
+            <li><strong>Roma, Italia</strong> · 9 de julio · Atlantico Live</li>
+            <li><strong>Madrid, España</strong> · 16 de julio · La Riviera</li>
+          </ol>
+          <a
+            class="cta"
+            href="https://www.ticketmaster.es/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Comprar tickets para el Tour Europa 2026"
+          >
+            Comprar tickets
+          </a>
+          <p>
+            URL de compra:
+            <a href="https://www.ticketmaster.es/" target="_blank" rel="noopener noreferrer"
+              >https://www.ticketmaster.es/</a
+            >
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" aria-label="Pie de página">
+      <p>Mateo Rivas · Rock Alternativo · Sitio oficial</p>
+    </footer>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Mateo Rivas",
+        "jobTitle": "Cantante de rock alternativo",
+        "description": "Cantante y compositor de rock alternativo con estilo inspirado en el sonido potente de bandas como Nickelback.",
+        "genre": "Rock alternativo",
+        "url": "https://example.com/mateo-rivas",
+        "image": "assets/vinyl-disc-a.svg",
+        "nationality": "Latinoamericano",
+        "knowsAbout": [
+          "Canto",
+          "Composición",
+          "Rock alternativo",
+          "Actuación en vivo"
+        ],
+        "event": [
+          {
+            "@type": "MusicEvent",
+            "name": "Tour Europa 2026 - Londres",
+            "location": {
+              "@type": "Place",
+              "name": "Electric Ballroom",
+              "address": "Londres, Reino Unido"
+            },
+            "startDate": "2026-06-15"
+          },
+          {
+            "@type": "MusicEvent",
+            "name": "Tour Europa 2026 - París",
+            "location": {
+              "@type": "Place",
+              "name": "Le Trianon",
+              "address": "París, Francia"
+            },
+            "startDate": "2026-06-21"
+          },
+          {
+            "@type": "MusicEvent",
+            "name": "Tour Europa 2026 - Madrid",
+            "location": {
+              "@type": "Place",
+              "name": "La Riviera",
+              "address": "Madrid, España"
+            },
+            "startDate": "2026-07-16"
+          }
+        ]
+      }
+    </script>
+
+    <script>
+      (() => {
+        const trigger = document.getElementById("vinyl-trigger");
+        const vinylImage = document.getElementById("vinyl-image");
+        const statusText = document.getElementById("vinyl-status");
+        const muteButton = document.getElementById("mute-btn");
+        if (!trigger || !statusText || !vinylImage || !muteButton) return;
+
+        let audioCtx;
+        let masterGain;
+        let riffTimer;
+        let currentPresetIndex = -1;
+
+        let isMuted = false;
+
+        // Presets de riffs de guitarra de rock alternativo con nombres únicos
+        const presets = [
+          {
+            title: "Sueños de Asfalto",
+            bpm: 144,
+            notes: [164.81, 220.00, 246.94, 196.00, 174.61], // E, A, B, G, F#
+            riffPattern: [0, 1, 2, 1, 3, 4, 1, 0, 2, 3, 1, 0],
+            cutoff: 1200,
+            distortion: 0.35
+          },
+          {
+            title: "Cuerdas al Límite",
+            bpm: 128,
+            notes: [130.81, 174.61, 220.00, 246.94, 196.00], // C, F#, A, B, G
+            riffPattern: [0, 1, 2, 3, 2, 4, 1, 0, 3, 2, 1, 0],
+            cutoff: 1100,
+            distortion: 0.42
+          },
+          {
+            title: "Amanecer Eléctrico",
+            bpm: 156,
+            notes: [146.83, 196.00, 246.94, 220.00, 174.61], // D, G, B, A, F#
+            riffPattern: [0, 2, 1, 3, 4, 2, 1, 0, 3, 2, 4, 1],
+            cutoff: 1300,
+            distortion: 0.38
+          }
+        ];
+
+        function createContext() {
+          if (!audioCtx) {
+            audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+            masterGain = audioCtx.createGain();
+            masterGain.gain.value = 0.22;
+            masterGain.connect(audioCtx.destination);
+            applyMuteState();
+          }
+        }
+
+        function applyMuteState() {
+          if (!masterGain || !audioCtx) return;
+          const target = isMuted ? 0.0001 : 0.22;
+          masterGain.gain.setTargetAtTime(target, audioCtx.currentTime, 0.02);
+          muteButton.setAttribute("aria-pressed", isMuted ? "true" : "false");
+          muteButton.textContent = isMuted ? "Activar sonido" : "Apagar sonido";
+          muteButton.setAttribute(
+            "aria-label",
+            isMuted ? "Activar sonido" : "Apagar sonido"
+          );
+        }
+
+        // Riff de guitarra eléctrica con distorsión y slides
+        function playGuitarRiff(baseFreq, time, duration, cutoff, distortionAmount) {
+          const osc = audioCtx.createOscillator();
+          const gain = audioCtx.createGain();
+          const filter = audioCtx.createBiquadFilter();
+          const distortion = audioCtx.createWaveShaper();
+
+          // Simula slide: sube o baja la frecuencia al final
+          osc.type = "triangle";
+          osc.frequency.setValueAtTime(baseFreq, time);
+          osc.frequency.linearRampToValueAtTime(baseFreq * (Math.random() > 0.5 ? 1.04 : 0.96), time + duration);
+
+          // Distorsión
+          function makeDistortionCurve(amount) {
+            const n_samples = 44100, curve = new Float32Array(n_samples);
+            const deg = Math.PI / 180;
+            for (let i = 0; i < n_samples; ++i) {
+              let x = (i * 2) / n_samples - 1;
+              curve[i] = ((3 + amount) * x * 20 * deg) / (Math.PI + amount * Math.abs(x));
+            }
+            return curve;
+          }
+          distortion.curve = makeDistortionCurve(distortionAmount * 100);
+          distortion.oversample = "4x";
+
+          filter.type = "lowpass";
+          filter.frequency.setValueAtTime(cutoff, time);
+          filter.Q.value = 1.5;
+
+          gain.gain.setValueAtTime(0.0001, time);
+          gain.gain.exponentialRampToValueAtTime(0.19, time + 0.02);
+          gain.gain.exponentialRampToValueAtTime(0.0001, time + duration);
+
+          osc.connect(distortion);
+          distortion.connect(filter);
+          filter.connect(gain);
+          gain.connect(masterGain);
+
+          osc.start(time);
+          osc.stop(time + duration + 0.04);
+        }
+
+        function kick(time) {
+          const osc = audioCtx.createOscillator();
+          const gain = audioCtx.createGain();
+          osc.type = "sine";
+          osc.frequency.setValueAtTime(130, time);
+          osc.frequency.exponentialRampToValueAtTime(45, time + 0.11);
+          gain.gain.setValueAtTime(0.22, time);
+          gain.gain.exponentialRampToValueAtTime(0.0001, time + 0.11);
+          osc.connect(gain);
+          gain.connect(masterGain);
+          osc.start(time);
+          osc.stop(time + 0.12);
+        }
+
+        function snare(time) {
+          const bufferSize = audioCtx.sampleRate * 0.16;
+          const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);
+          const data = buffer.getChannelData(0);
+          for (let i = 0; i < bufferSize; i += 1) {
+            data[i] = (Math.random() * 2 - 1) * (1 - i / bufferSize);
+          }
+          const noise = audioCtx.createBufferSource();
+          const filter = audioCtx.createBiquadFilter();
+          const gain = audioCtx.createGain();
+
+          noise.buffer = buffer;
+          filter.type = "highpass";
+          filter.frequency.setValueAtTime(1200, time);
+          gain.gain.setValueAtTime(0.18, time);
+          gain.gain.exponentialRampToValueAtTime(0.0001, time + 0.15);
+
+          noise.connect(filter);
+          filter.connect(gain);
+          gain.connect(masterGain);
+          noise.start(time);
+          noise.stop(time + 0.16);
+        }
+
+        function clearTimers() {
+          window.clearInterval(riffTimer);
+        }
+
+        function scheduleBar(preset, barStart, beat) {
+          for (let i = 0; i < preset.riffPattern.length; i += 1) {
+            const stepTime = barStart + i * (beat / 2.2);
+            const noteIndex = preset.riffPattern[i];
+            playGuitarRiff(
+              preset.notes[noteIndex],
+              stepTime,
+              beat * 0.32 + Math.random() * 0.04,
+              preset.cutoff,
+              preset.distortion
+            );
+          }
+
+          // Batería simple para acompañar
+          kick(barStart);
+          if (Math.random() > 0.5) kick(barStart + beat);
+          snare(barStart + beat * 2);
+          if (Math.random() > 0.5) kick(barStart + beat * 3);
+        }
+
+        function playPreset(preset) {
+          createContext();
+          if (audioCtx.state === "suspended") {
+            audioCtx.resume();
+          }
+
+          clearTimers();
+
+          const bpm = preset.bpm;
+          const beat = 60 / bpm;
+          const barSeconds = beat * 4;
+          const firstBar = audioCtx.currentTime + 0.05;
+
+          scheduleBar(preset, firstBar, beat);
+
+          riffTimer = window.setInterval(() => {
+            scheduleBar(preset, audioCtx.currentTime + 0.03, beat);
+          }, barSeconds * 1000);
+
+          statusText.textContent =
+            `Sonando: ${preset.title}. Haz click para cambiar canción.`;
+        }
+
+
+        function setDiscSpinning(spin) {
+          if (spin) {
+            vinylImage.classList.add("playing");
+          } else {
+            vinylImage.classList.remove("playing");
+          }
+        }
+
+
+        trigger.addEventListener("click", () => {
+          currentPresetIndex = (currentPresetIndex + 1) % presets.length;
+          playPreset(presets[currentPresetIndex]);
+          setDiscSpinning(true);
+        });
+
+
+        function stopMusic() {
+          if (riffTimer) window.clearInterval(riffTimer);
+          if (audioCtx && audioCtx.state !== "closed") {
+            audioCtx.close();
+            audioCtx = null;
+            masterGain = null;
+          }
+          setDiscSpinning(false);
+          statusText.textContent = "Haz click en el vinilo para comenzar. Cada click cambia canción.";
+          currentPresetIndex = -1;
+        }
+
+        muteButton.addEventListener("click", () => {
+          if (!isMuted) {
+            isMuted = true;
+            stopMusic();
+            muteButton.setAttribute("aria-pressed", "false");
+            muteButton.textContent = "Activar sonido";
+            muteButton.setAttribute("aria-label", "Activar sonido");
+          } else {
+            isMuted = false;
+            muteButton.setAttribute("aria-pressed", "true");
+            muteButton.textContent = "Apagar sonido";
+            muteButton.setAttribute("aria-label", "Apagar sonido");
+          }
+        });
+
+        // Detener giro si se apaga el sonido desde el inicio
+        if (isMuted) setDiscSpinning(false);
+
+        muteButton.addEventListener("click", () => {
+          isMuted = !isMuted;
+          createContext();
+          applyMuteState();
+        });
+      })();
+    </script>
+  </body>
+</html>

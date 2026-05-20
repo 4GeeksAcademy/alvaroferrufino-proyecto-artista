@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 400" width="120" height="150" aria-label="Aguja de tocadiscos" style="pointer-events:none">
+  <g transform="translate(160 40)">
+    <circle cx="0" cy="0" r="26" fill="#b6b2ad" />
+    <circle cx="0" cy="0" r="10" fill="#7f7b77" />
+    <rect x="-8" y="0" width="16" height="270" rx="8" fill="#a8a49f" transform="rotate(22)" />
+    <rect x="-6" y="245" width="12" height="70" rx="6" fill="#cfcac3" transform="rotate(22)" />
+    <circle cx="-114" cy="286" r="8" fill="#ddd7cf" />
+    <polygon points="-118,293 -106,288 -112,304" fill="#ece7de" />
+  </g>
+</svg>
